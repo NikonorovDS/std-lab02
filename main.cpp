@@ -1,7 +1,10 @@
 #include <iostream>
-
+using namespace std;
 int
-main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+main(){
+    int a,b;
+    cout <<"vvedite A and B:";
+    cin >> a >>b;
+    cout <<"A+B="<<a+b<<endl;
+
 }
